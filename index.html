@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>front-end starter kit</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg shadow-lg fixed-top">
+		<div class="container">
+		  <a class="navbar-brand" href="#">Company</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse text-right" id="navbarText">
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ABOUT
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">HISTORY</a></li>
+                      <li><a class="dropdown-item" href="#">VISION MISSION</a></li>
+                    </ul>
+                  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="product">OUR WORK</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="service">OUR TEAM</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="contact">CONTACT</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/about-bg.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="transbox">
+                    <p>WE DON'T HAVE THE BEST BUT WE HAVE THE <br> GREATEST TEAM</p>
+                  </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/bg.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="transbox">
+                    <p>WE DON'T HAVE THE BEST BUT WE HAVE THE <br> GREATEST TEAM</p>
+                </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      
+
+      <div class="cards">
+        <h1>OUR VALUE</h1>
+        <div class="service">
+          <div class="content content-1">
+            <div class="far fa-lightbulb"></div>
+            <h2>INNOVATIVE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo architecto ea?</p>
+          </div>
+          <div class="content content-2">
+            <div class="far fa-building"></div>
+            <h2>LOYALTY</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo architecto ea?</p>
+          </div>
+          <div class="content content-3">
+            <div class="fas fa-balance-scale"></div>
+            <h2>RESPECT</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo architecto ea?</p>
+          </div>
+        </div>
+      </div>
+
+      
+      
+
+      <!-- <div class="container">
+        <h1>Contact Us</h1>
+        <p>Hubungi kami melalui form berikut</p>
+        <form action="" method="post" style="max-width: 600px;">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="your name" value="" />
+            <div class="invalid-feedback"></div>
+          </div>
+          <div>
+            <label for="email">Email*</label>
+            <input type="email" name="email" placeholder="your email address" value="" />
+            <div class="invalid-feedback"></div>
+          </div>
+          <div>
+            <label for="messaage">Message*</label><br>
+            <textarea name="message" cols="30" rows="5" placeholder="write your message"></textarea>
+            <div class="invalid-feedback"></div>
+          </div>
+    
+          <div style="display: flex; gap: 1rem">
+            <input type="submit" class="button button-primary" value="SUBMIT">
+          </div>
+        </form>
+      </div> -->
+
+      <!-- <form name="contact-form">
+        <div class="form-control">
+          <label>Full Name</label>
+          <input name="name"
+            placeholder="First and Last Name" />
+          <div class="error hide">Name is required</div>
+        </div>
+  
+        <div class="form-control">
+          <label>Email</label>
+          <input
+            name="email"
+            placeholder="e.g. your_email@example.com"
+          />
+          <div class="error hide">Email is invalid</div>
+        </div>
+  
+        <div class="form-control">
+          <label>Phone</label>
+          <input name="phone"
+          ></input>
+          <div class="error hide">Phone is invalid</div>
+        </div>
+  
+        <div class="form-control">
+          <label>Message</label>
+          <textarea name="message"></textarea>
+          <div class="error hide">Message is required</div>
+        </div>
+  
+        <hr />
+  
+        <button type="submit">SUBMIT FORM</button>
+      </form> -->
+
+      <div class="container">
+        <form id="form" action="/">
+            <h1>CONTACT US</h1>
+            <div class="input-control">
+                <label for="username">Nama</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div>
+              <div class="input-control">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" type="text" cols="63" rows="5"></textarea>
+              <div class="error"></div>
+            </div>
+          </div>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+
+
+    <footer id="footer">
+
+   
+      <div class="copyright"> 
+      <p>Copyright © 2016. PT Company</p>
+          <ul class="footer">
+                  <a href="#" class="fab fa-facebook-square	"></a>
+                  <a href="#" class="fab fa-twitter	"></a>
+          </ul>
+      </div>
+  </footer>
+  
+      <script src="script.js"></script>
+     
+      
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
